@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: url('./scenic-view-field-against-cloudy-sky_1048944-30258691.avif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.weather-card {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.search-bar {
+    display: flex;
+    margin-bottom: 30px;
+}
+.search-bar input {
+    flex:1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+.search-bar button {
+    background: gray;
+    border: 2px black solid;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
